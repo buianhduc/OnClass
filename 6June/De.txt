@@ -1,0 +1,11 @@
+Xếp tháp có chiều cao lớn nhất
+3 khối đá có chiều dài, rông và cao là x,y,z,
+Khối đá sao phải có dài, rộng, cao nhỏ hơn khối đá cho trước
+Sắp xếp theo chiều dài và chiều rộng, cái nào có chiều dài lớn nhất thì nằm ở phía dưới, xong xếp theo chiều rộng, cái nào có chiều rộng nhỏ hơn thì xếp lên trên 
+Đặt sh[i] là chiều cao lớn nhất của tháp
+Độ cao lớn nhất của tháp là sh[n]
+P[i] = 0;
+sh[i] = max sh[j]
+J 1 -> i-1
+a[i].x < a[j].x 
+a[i].y < a[j].y
