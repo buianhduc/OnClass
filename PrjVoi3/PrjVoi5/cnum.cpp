@@ -22,9 +22,9 @@ int gcd(int a, int b)
 
 pair<int, int> simplify(int a, int b)
 {
-    int divisor = gcd(a, b);
-    a /= divisor;
-    b /= divisor;
+    // int divisor = gcd(a, b);
+    // a /= divisor;
+    // b /= divisor;
     return make_pair(a, b);
 }
 
@@ -37,7 +37,7 @@ bool isFit(int a, int b)
     return false;
 }
 
-void printRes(int n)
+void printRes(int n, bool isPrime[])
 {
     int count = 0;
     for (int i = 1; i <= n; i++)
@@ -48,6 +48,7 @@ void printRes(int n)
             {
                 count++;
             }
+            else if (isPrime[i] and isPrime[j] ) continue;
             else
             {
                 if (isFit(i, j))
@@ -63,16 +64,26 @@ void printRes(int n)
 
 signed main()
 {
-    int n;
+    int n, max = 0;
     cin >> n;
-    bool isPrime[n + 1];
-    for (int i = 0; i <= n; ++i)
+    vector<int> vt;
+
+    for (int i = 1; i <= n; i++)
+    {
+        int temp;
+        cin >> temp;
+        if(temp > max) max = temp;
+        vt.push_back(temp);    
+    }
+
+    bool isPrime[max + 1];
+    for (int i = 0; i <= max; ++i)
     {
         isPrime[i] = true;
     }
     isPrime[0] = false;
     isPrime[1] = false;
-    for (int i = 2; i * i <= n; ++i)
+    for (int i = 2; i * i <= max; ++i)
     {
         if (isPrime[i] == true)
         {
@@ -80,10 +91,9 @@ signed main()
                 isPrime[j] = false;
         }
     }
-    for (int i = 1; i <= n; i++)
-    {
-        int temp;
-        cin >> temp;
-        printRes(temp);
+    
+    for(int i : vt){
+        printRes(i,isPrime);
     }
+
 }
