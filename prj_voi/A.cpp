@@ -20,7 +20,7 @@ int makeChoice(string a, string b, string c)
 
     while(!q.empty())
     {
-
+    	cin>>a;
     }
 
 }
