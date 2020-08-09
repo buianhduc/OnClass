@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o"
+  "CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o"
   "Ctriangle.pdb"
   "Ctriangle"
 )

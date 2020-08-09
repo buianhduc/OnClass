@@ -57,27 +57,27 @@ include CMakeFiles/Ctriangle.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ctriangle.dir/flags.make
 
-CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o: CMakeFiles/Ctriangle.dir/flags.make
-CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o: ../SS1/hsumm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ducbui/Documents/Coding/OnClass/CovidSeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o -c /Users/ducbui/Documents/Coding/OnClass/CovidSeason/SS1/hsumm.cpp
+CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o: CMakeFiles/Ctriangle.dir/flags.make
+CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o: ../04_08_2020/maxSubArrWithKSize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ducbui/Documents/Coding/OnClass/CovidSeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o -c /Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp
 
-CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ducbui/Documents/Coding/OnClass/CovidSeason/SS1/hsumm.cpp > CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.i
+CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp > CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.i
 
-CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ducbui/Documents/Coding/OnClass/CovidSeason/SS1/hsumm.cpp -o CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.s
+CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp -o CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.s
 
 # Object files for target Ctriangle
 Ctriangle_OBJECTS = \
-"CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o"
+"CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o"
 
 # External object files for target Ctriangle
 Ctriangle_EXTERNAL_OBJECTS =
 
-Ctriangle: CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o
+Ctriangle: CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o
 Ctriangle: CMakeFiles/Ctriangle.dir/build.make
 Ctriangle: CMakeFiles/Ctriangle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ducbui/Documents/Coding/OnClass/CovidSeason/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ctriangle"

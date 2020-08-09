@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/ducbui/Documents/Coding/OnClass/CovidSeason/SS1/hsumm.cpp
+/Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp
 iostream
 -
 vector
--
-algorithm
--
-string
--
-sstream
 -
 

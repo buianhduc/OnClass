@@ -123,32 +123,32 @@ Ctriangle/fast:
 	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/build
 .PHONY : Ctriangle/fast
 
-SS1/hsumm.o: SS1/hsumm.cpp.o
+04_08_2020/maxSubArrWithKSize.o: 04_08_2020/maxSubArrWithKSize.cpp.o
 
-.PHONY : SS1/hsumm.o
+.PHONY : 04_08_2020/maxSubArrWithKSize.o
 
 # target to build an object file
-SS1/hsumm.cpp.o:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o
-.PHONY : SS1/hsumm.cpp.o
+04_08_2020/maxSubArrWithKSize.cpp.o:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o
+.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.o
 
-SS1/hsumm.i: SS1/hsumm.cpp.i
+04_08_2020/maxSubArrWithKSize.i: 04_08_2020/maxSubArrWithKSize.cpp.i
 
-.PHONY : SS1/hsumm.i
+.PHONY : 04_08_2020/maxSubArrWithKSize.i
 
 # target to preprocess a source file
-SS1/hsumm.cpp.i:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.i
-.PHONY : SS1/hsumm.cpp.i
+04_08_2020/maxSubArrWithKSize.cpp.i:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.i
+.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.i
 
-SS1/hsumm.s: SS1/hsumm.cpp.s
+04_08_2020/maxSubArrWithKSize.s: 04_08_2020/maxSubArrWithKSize.cpp.s
 
-.PHONY : SS1/hsumm.s
+.PHONY : 04_08_2020/maxSubArrWithKSize.s
 
 # target to generate assembly for a file
-SS1/hsumm.cpp.s:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.s
-.PHONY : SS1/hsumm.cpp.s
+04_08_2020/maxSubArrWithKSize.cpp.s:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.s
+.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Ctriangle"
-	@echo "... SS1/hsumm.o"
-	@echo "... SS1/hsumm.i"
-	@echo "... SS1/hsumm.s"
+	@echo "... 04_08_2020/maxSubArrWithKSize.o"
+	@echo "... 04_08_2020/maxSubArrWithKSize.i"
+	@echo "... 04_08_2020/maxSubArrWithKSize.s"
 .PHONY : help
 
 

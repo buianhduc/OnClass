@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ducbui/Documents/Coding/OnClass/CovidSeason/SS1/hsumm.cpp" "/Users/ducbui/Documents/Coding/OnClass/CovidSeason/cmake-build-debug/CMakeFiles/Ctriangle.dir/SS1/hsumm.cpp.o"
+  "/Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp" "/Users/ducbui/Documents/Coding/OnClass/CovidSeason/cmake-build-debug/CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
