@@ -1,69 +1,44 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
 
+using namespace std;
 #define int long long
-vector<vector<bool> > in;
-bool checkRow(int RowPos){
-    for(auto && i : in[RowPos]){
-        if(i) return false;
-    }
-    return true;
-}
-void PopRow(int RowPos){
-    in.erase(in.begin() + RowPos);
-}
-bool checkColumn(int ColPos){
-    for(auto && i : in){
-        if(i[ColPos]) return false;
-    }
-    return true;
-}
-pair<int,int> check(int row){
-    for(int i = 0; i < in.size(); i++){
-        if(checkRow(i)) return make_pair(1,i);
-    }
-    for(int i = 0; i < row; i++){
-        if(checkColumn(i)) return make_pair(2,i);
-    }
-    return make_pair(-1,-1);
-}
-void PopCol(int ColPos){
-    for(auto & i : in){
-        i.erase(i.begin() +ColPos);
-    }
-}
+#define ar array
+#define db double
+#define pi 3.14159265358979323846
+#define pr pair <int,int>
+
+const int INF = 1e9+1;
+const int mxn = 1e5 + 1;
+int n,m,k;
+int a[mxn] = {0};
+
+int hang[mxn];
+int cot[mxn];
+
 
 signed main(){
-    int row, col, K;
-    cin>>row>>col>>K;
-    for(int i = 0; i < row; i++){
-        vector<bool> temp;
-        for(int j = 0; j < col; j++){
-            temp.push_back(0);
-        }
-        in.push_back(temp);
-    }
-    for(int i = 0; i < K; i++) {
-        int a, b;
-        cin >> a >> b;
-        in[a - 1][b - 1] = 1;
-    }
+    // freopen("NAME.INP", "r" , stdin);
+    // freopen("NAME.OUT", "w", stdout);
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
 
-    while(check(row).first != -1){
-        for(int i = 0; i < in.size(); i++){
-            if(checkColumn(i)){
-                PopCol(i);
-                col--;
-            }
-        }
-        for(int i = 0; i < row; i++){
-            if(checkRow(i)) {
-                PopRow(i);
-                row--;
-            }
-        }
+    cin >> n >> m >> k;
+    for (int i = 1;i <= k;i++) {
+        int x,y;
+        cin >> x >> y;
+        hang[x] = 1;
+        cot[y] = 1;
     }
-    cout<<row*col;
+    int r1=0,r2=0;
+    for (int i = 1;i <= n;i++) {
+        if (hang[i] == 1) r1 += 1;
+    }
+    for (int i = 1;i <= m;i++) {
+        if (cot[i] == 1) r2+= 1;
+    }
+    cout << r1 * r2 << endl;
+    return 0;
 }

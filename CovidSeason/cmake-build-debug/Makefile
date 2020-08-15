@@ -123,32 +123,32 @@ Ctriangle/fast:
 	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/build
 .PHONY : Ctriangle/fast
 
-04_08_2020/maxSubArrWithKSize.o: 04_08_2020/maxSubArrWithKSize.cpp.o
+Thay_Minh/MAXDIS/maxdis.o: Thay_Minh/MAXDIS/maxdis.cpp.o
 
-.PHONY : 04_08_2020/maxSubArrWithKSize.o
+.PHONY : Thay_Minh/MAXDIS/maxdis.o
 
 # target to build an object file
-04_08_2020/maxSubArrWithKSize.cpp.o:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.o
-.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.o
+Thay_Minh/MAXDIS/maxdis.cpp.o:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/Thay_Minh/MAXDIS/maxdis.cpp.o
+.PHONY : Thay_Minh/MAXDIS/maxdis.cpp.o
 
-04_08_2020/maxSubArrWithKSize.i: 04_08_2020/maxSubArrWithKSize.cpp.i
+Thay_Minh/MAXDIS/maxdis.i: Thay_Minh/MAXDIS/maxdis.cpp.i
 
-.PHONY : 04_08_2020/maxSubArrWithKSize.i
+.PHONY : Thay_Minh/MAXDIS/maxdis.i
 
 # target to preprocess a source file
-04_08_2020/maxSubArrWithKSize.cpp.i:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.i
-.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.i
+Thay_Minh/MAXDIS/maxdis.cpp.i:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/Thay_Minh/MAXDIS/maxdis.cpp.i
+.PHONY : Thay_Minh/MAXDIS/maxdis.cpp.i
 
-04_08_2020/maxSubArrWithKSize.s: 04_08_2020/maxSubArrWithKSize.cpp.s
+Thay_Minh/MAXDIS/maxdis.s: Thay_Minh/MAXDIS/maxdis.cpp.s
 
-.PHONY : 04_08_2020/maxSubArrWithKSize.s
+.PHONY : Thay_Minh/MAXDIS/maxdis.s
 
 # target to generate assembly for a file
-04_08_2020/maxSubArrWithKSize.cpp.s:
-	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/04_08_2020/maxSubArrWithKSize.cpp.s
-.PHONY : 04_08_2020/maxSubArrWithKSize.cpp.s
+Thay_Minh/MAXDIS/maxdis.cpp.s:
+	$(MAKE) -f CMakeFiles/Ctriangle.dir/build.make CMakeFiles/Ctriangle.dir/Thay_Minh/MAXDIS/maxdis.cpp.s
+.PHONY : Thay_Minh/MAXDIS/maxdis.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Ctriangle"
-	@echo "... 04_08_2020/maxSubArrWithKSize.o"
-	@echo "... 04_08_2020/maxSubArrWithKSize.i"
-	@echo "... 04_08_2020/maxSubArrWithKSize.s"
+	@echo "... Thay_Minh/MAXDIS/maxdis.o"
+	@echo "... Thay_Minh/MAXDIS/maxdis.i"
+	@echo "... Thay_Minh/MAXDIS/maxdis.s"
 .PHONY : help
 
 

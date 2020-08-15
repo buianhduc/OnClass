@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp
+/Users/ducbui/Documents/Coding/OnClass/CovidSeason/Thay_Minh/MAXDIS/maxdis.cpp
 iostream
 -
-vector
+algorithm
+-
+cstdio
+-
+cmath
 -
 

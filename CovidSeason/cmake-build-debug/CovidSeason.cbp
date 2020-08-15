@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ducbui/Documents/Coding/OnClass/CovidSeason/04_08_2020/maxSubArrWithKSize.cpp">
+		<Unit filename="/Users/ducbui/Documents/Coding/OnClass/CovidSeason/Thay_Minh/MAXDIS/maxdis.cpp">
 			<Option target="Ctriangle"/>
 		</Unit>
 		<Unit filename="/Users/ducbui/Documents/Coding/OnClass/CovidSeason/CMakeLists.txt">
